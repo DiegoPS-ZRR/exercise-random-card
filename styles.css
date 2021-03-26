@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1518895312237-a9e23508077d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FzaW5vfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+.card {
+    height: 400px;
+    width: 280px;
+    background: rgb(219, 181, 167);
+    border-radius: 25px;
+    border: 8px double rgb(25, 25, 145);
+    line-height: 400px;
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+    position: relative;
+    left:0;
+    right: 0;
+    top: 25%;
+    bottom: 0;
+}
+
+.heart,
+.heart:before {
+	content: "♥";
+    color: red;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.heart:after {
+	content: "♥";
+    color: red;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.spade,
+.spade:before {
+	content: "♠";
+    color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.spade:after {
+	content: "♠";
+    color: black;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.diamond,
+.diamond:before {
+	content: "♦";
+    color: red;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.diamond:after {
+	content: "♦";
+    color: red;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.club,
+.club:before {
+	content: "♣";
+    color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.club:after {
+	content: "♣";
+    color: black;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+
+
